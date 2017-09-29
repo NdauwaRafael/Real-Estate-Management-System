@@ -25,7 +25,7 @@ if (!admin_loggedin()) {
 
     <!--sidebar nav start-->
       <ul class="nav nav-pills nav-stacked custom-nav">
-        <li><a class="dashboard"><i class="lnr lnr-power-switch"></i><span>Landlord Dashboard</span></a></li>
+        <li><a class="dashboard"><i class="lnr lnr-power-switch"></i><span>Admin Dashboard</span></a></li>
 
         <li class="menu-list">
           <a href="#"><i class="fa fa-building-o"></i>

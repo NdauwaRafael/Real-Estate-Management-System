@@ -75,7 +75,7 @@ if (!landlord_loggedin()) {
             <div class="profile_img">
               <span style="background:url(images/1.jpg) no-repeat center"> </span>
                <div class="user-name">
-                <p><?=$landlord_name?><span>Administrator</span></p>
+                <p><?=$landlord_name?><span>Landlord</span></p>
                </div>
                <i class="lnr lnr-chevron-down"></i>
                <i class="lnr lnr-chevron-up"></i>
