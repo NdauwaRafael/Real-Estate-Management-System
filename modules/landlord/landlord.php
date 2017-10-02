@@ -139,6 +139,15 @@ $(function(){
      $("#landlord_concepts").load('house/view_house.php');
   })
 
+  $('#add_estate').click(function(){
+    $("#landlord_concepts").load('estate/add_estate.php');
+  });
+
+
+  $("#view_estate").click(function() {
+     $("#landlord_concepts").load('estate/estate_house.php');
+  })
+
   $("#add_tenants").click(function(){
     $("#landlord_concepts").load('tenants/add_tenant.php');
   })

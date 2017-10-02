@@ -1,0 +1,21 @@
+<?php
+  if ($_POST) {
+      $name = $_POST['name']; 
+      $category = $_POST['category'];
+      $location = $_POST['location'];
+      $units = $_POST['units'];
+      $description = $_POST['description'];
+      $landlord=$_SESSION['landlord_email'];
+
+      if (!empty($name) && !empty($category) && !empty($location) && !empty($units) && !empty($description) && !empty($landlord)) {
+          $add = mysqli_query($con, "INSERT INTO `estate`(`estate_id`, `name`, `category`, `location`, `units`, `description`, `owner`) VALUES (NULL,'$name','$category','$location','$units','$description','$landlord')");
+
+          if ($add) {
+              echo '';
+          }else {
+              echo '';
+          }
+      }
+  }
+
+?>
