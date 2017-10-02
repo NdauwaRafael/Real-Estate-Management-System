@@ -39,7 +39,7 @@ if (!landlord_loggedin()) {
 
         <li class="menu-list">
           <a href="#"><i class="lnr lnr-apartment"></i>
-            <span>Houses</span></a>
+            <span>Estates</span></a>
             <ul class="sub-menu-list">
               <li><a id="add_estate">Add Estate</a> </li>
               <li><a id="view_estate">View Estate</a></li>
