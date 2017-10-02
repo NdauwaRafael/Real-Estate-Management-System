@@ -38,7 +38,7 @@
               <?php
               session_start();
               require '../config/connect.php';
-                 $query = mysqli_query($con,"SELECT * FROM `estate` WHERE `owner`='{$_SESSION['landlord_email']}'");
+                 $query = mysqli_query($con,"SELECT * FROM `estate` WHERE `owner`='{$_SESSION['landlord_email']}' ORDER BY `estate`.`name` ASC");
                   while ($estate = mysqli_fetch_array($query)) {
                     ?>
                     <option  value="<?=$estate['estate_id']?>"><?=$estate['name']?></option>

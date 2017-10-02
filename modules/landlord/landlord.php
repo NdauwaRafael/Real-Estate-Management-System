@@ -145,7 +145,7 @@ $(function(){
 
 
   $("#view_estate").click(function() {
-     $("#landlord_concepts").load('estate/estate_house.php');
+     $("#landlord_concepts").load('estate/view_estate.php');
   })
 
   $("#add_tenants").click(function(){

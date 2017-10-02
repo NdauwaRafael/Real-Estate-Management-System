@@ -1,4 +1,4 @@
-<h3 class="blank1">Landlord | Add Estate</h3>
+
         <div class="activity_box ">
           <h3>Add an Estate</h3>
           <div class="scrollbar scrollbar1" id="style-3">
@@ -35,6 +35,7 @@
               <option>Likoni</option>
               <option>Mtwapa</option>              
               <option>Nyali</option>
+              <option>Tudor</option>
 
             </select>
           </div>
